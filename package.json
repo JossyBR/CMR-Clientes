@@ -1,0 +1,20 @@
+{
+  "name": "cmrpedidos",
+  "version": "1.0.0",
+  "description": "CMR gestion de pedidos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Jossy Benitez",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.12.1",
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
