@@ -1,4 +1,4 @@
-const mongoose = require("mongose");
+const mongoose = require("mongoose");
 require("dotenv").config({ path: "variables.env" });
 
 //Para conectar
@@ -6,10 +6,10 @@ require("dotenv").config({ path: "variables.env" });
 const conectarDB = async () => {
   try {
     await mongoose.connect(process.env.DB_MONGO, {
-      useNewUrlPParser: true,
-      useUnifiedTopology: true,
-      useFindAndModify: false,
-      useCreateIndex: true,
+      // useNewUrlPParser: true,
+      // useUnifiedTopology: true,
+      // useFindAndModify: false,
+      // useCreateIndex: true,
     });
     console.log("DB Conectada");
   } catch (error) {
